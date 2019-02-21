@@ -1,0 +1,5 @@
+- Sonar cloud is a free service that generates code statistics.
+- For the attached screen shot, the coverage is 0% as the Sonar command is running from the parent maven project, which has no code, and no unit tests.
+
+
+-- No bugs or vulnerabilities ;)

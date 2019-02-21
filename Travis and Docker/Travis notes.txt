@@ -1,0 +1,4 @@
+- Travis listens on my repo (CarTrackingSystem)
+- Take the code, clean, package, build docker image, and push it to docker hub
+- Please read ".travis" file in project directory
+
