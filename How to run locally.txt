@@ -1,0 +1,17 @@
+# Method 1:
+Use docker-compose file from https://github.com/m-hammad/CarTrackingSystem.git
+
+
+# Method 2 (in case docker images failed to start)
+Pre:
+    - MySQL 5.6 or 5.7
+    - Oracle Java 8 JDK
+    - STS IDE
+    - Maven 3.3
+
+- Pull code from https://github.com/m-hammad/CarTrackingSystem.git
+- Open STS and import the parent maven project
+- Run Eureka Server (as springboot app), exposed on 8761
+- Run Customer Service (as springboot app), exposed on 8088
+- Run Car Service (as springboot app), exposed on 8089
+- Run Car Dashboard Service (as springboot app), exposed on 8090
